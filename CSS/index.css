@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+.box{
+    background-color:bisque;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: justify;
+    font-family: Tiny5
+    Static;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+
+//tab
+@media (min-width:450px) and (max-width:750px){
+    body{
+        background-color: green;
+    }
+}
+//mobile
+@media (max-width:450px){
+    body{
+        background-color: black;
+    }
+}

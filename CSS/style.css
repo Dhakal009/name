@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.para{
+    background-color:#0fff;
+    color: #d85e5e;
+    font-weight:400px;
+    font-family: Poppins;
+    font-size: 2rem;
+    text-align: center;
+    
+    margin:5px 5px;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    font: weight 700px;
+}

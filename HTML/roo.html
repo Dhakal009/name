@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 80px;
+            color: blue;
+            text-align: center;
+            margin-top:300px ;
+        }
+       
+        body{
+            background-color: black;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            margin: 400px auto;
+            background-color:azure;
+            position: relative;
+            transition: 4s;
+            animation: res 10s linear 1s infinite ;
+        }
+        @keyframes res{
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .subbox{
+            height: 300px;
+            width: 300px;
+            background-color:azure;
+            position: absolute;
+            transform: perspective(40px) rotate(45deg);
+        }
+        /* .subbox:hover{
+            transform: perspective(40px) rotate(45deg);
+        } */
+    </style>
+</head>
+<body>
+</div>
+<h1>
+    OM
+</h1>
+    <div class="box">
+        
+        <div class="subbox">
+            
+        </div>
+   
+    
+</body>
+</html>

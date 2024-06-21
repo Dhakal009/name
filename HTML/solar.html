@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 1rem;
+        /* 1rem=16px */
+    }
+    body{
+        background: black;
+        width: 100%;
+        height: 100%;
+    }
+    .whole{
+        transform: skew(5deg, -25deg);
+        left: 500px;
+        position: relative;
+    }
+    .norbit{
+        position: relative;
+        border: 2px solid white;
+        width: 900px;
+        height: 900px;
+        left: 500px;
+        top: 40px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 47.87s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    @keyframes n-spin{
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .neptune{
+        position: absolute;
+        border: 2px solid lightblue;
+        background: lightblue;
+        width: 28px;
+        height: 28px;
+        margin: -12px 490px;
+        border-radius: 100%;
+    }
+    .uorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 800px;
+        height: 800px;
+        left: 550px;
+        top: 86px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 35.02s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .uranus{
+        position: absolute;
+        border: 2px solid cyan;
+        background: cyan;
+        width: 30px;
+        height: 30px;
+        margin: -1px 490px;
+        border-radius: 100%;
+    }
+    .sorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 700px;
+        height: 700px;
+        left: 598px;
+        top: 133px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 29.78s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .saturn{
+        position: absolute;
+        border: 2px solid darkgray;
+        background: darkgray;
+        width: 45px;
+        height: 45px;
+        margin: 20px 490px;
+        border-radius: 100%;
+    }
+    .saturnring{
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        transform: skew(30deg);
+        border: 2px solid darkgray;
+        border-radius: 100%;
+        margin: 19px 489px;
+        animation: r-spin;
+        animation-duration: 29.78s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    @keyframes r-spin{
+        100%{
+            transform: rotate(360deg);
+            transform: skewx(30deg);
+        }
+    }
+    .jorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 600px;
+        height: 600px;
+        left: 646px;
+        top: 179px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 24.07s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .jupiter{
+        position: absolute;
+        border: 2px solid lightsalmon;
+        background: lightsalmon;
+        width: 50px;
+        height: 50px;
+        margin: 72px 490px;
+        border-radius: 100%;
+    }
+    .morbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 500px;
+        height: 500px;
+        left: 695px;
+        top: 226px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 13.07s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .mars{
+        position: absolute;
+        border: 2px solid lightsalmon;
+        background: lightsalmon;
+        width: 10px;
+        height: 10px;
+        margin: 210px 490px;
+        border-radius: 100%;
+    }
+    .eorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 400px;
+        height: 400px;
+        left: 745px;
+        top: 274px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 9.69s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .earth{
+        position: absolute;
+        border: 2px solid skyblue;
+        background: lightgreen;
+        width: 14px;
+        height: 14px;
+        margin: 210px 389px;
+        border-radius: 100%;
+    }
+    .vorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 300px;
+        height: 300px;
+        left: 796px;
+        top: 322px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 6.81s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .venus{
+        position: absolute;
+        border: 2px solid brown;
+        background: brown;
+        width: 13px;
+        height: 13px;
+        margin: 210px 274px;
+        border-radius: 100%;
+    }
+    .meorbit{
+        position: absolute;
+        border: 2px solid white;
+        width: 200px;
+        height: 200px;
+        left: 845px;
+        top: 368px;
+        border-radius: 100%;
+        animation: n-spin;
+        animation-duration: 5.43s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1000;
+    }
+    .mercury{
+        position: absolute;
+        border: 2px solid rgb(88, 32, 3);
+        background: rgb(88, 32, 3);
+        width: 9px;
+        height: 9px;
+        margin: 130px 186px;
+        border-radius: 100%;
+    }
+    .sun{
+        position: absolute;
+        border: 2px solid gold;
+        background: gold;
+        width: 100px;
+        height: 100px;
+        left: 897px;
+        top: 412px;
+        border-radius: 100%;
+    }
+</head>
+<body>
+    
+</body>
+</html>
